@@ -1,0 +1,48 @@
+# Exchange_Postie .gitignore
+
+# OS files
+.DS_Store
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+
+# IDE
+.vscode/
+.vs/
+*.suo
+*.user
+*.userosscache
+*.sln.docstates
+
+# Node
+node_modules/
+
+# Python
+__pycache__/
+*.py[cod]
+venv/
+ENV/
+env/
+
+# Logs and temp
+*.log
+*.tmp
+*.temp
+*.bak
+*.swp
+*.swx
+
+# Secrets and keys
+.env
+*.pfx
+*.p12
+*.key
+*.pem
+
+# Archives
+*.zip
+*.tar.gz
+*.7z
+
+# Windows shortcuts
+*.lnk
