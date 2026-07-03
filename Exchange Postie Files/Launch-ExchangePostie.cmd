@@ -4,11 +4,11 @@ setlocal
 title Exchange Postie
 
 set "SCRIPT_DIR=%~dp0"
-set "SCRIPT_PATH=%SCRIPT_DIR%Test-M365Connector.ps1"
+set "SCRIPT_PATH=%SCRIPT_DIR%ExchangePostie_Core.ps1"
 
 if not exist "%SCRIPT_PATH%" (
     echo Could not find "%SCRIPT_PATH%".
-    echo Keep this launcher in the same folder as Test-M365Connector.ps1.
+    echo Keep this launcher in the same folder as ExchangePostie_Core.ps1.
     echo.
     pause
     exit /b 1

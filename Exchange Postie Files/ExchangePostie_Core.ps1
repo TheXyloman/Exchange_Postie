@@ -8,10 +8,10 @@ submission. The script can be run with parameters for repeatable tests or
 without parameters for a guided prompt flow.
 
 .EXAMPLE
-.\Test-M365Connector.ps1 -Host contoso-com.mail.protection.outlook.com -From sender@contoso.com -To recipient@contoso.com
+.\ExchangePostie_Core.ps1 -Host contoso-com.mail.protection.outlook.com -From sender@contoso.com -To recipient@contoso.com
 
 .EXAMPLE
-.\Test-M365Connector.ps1 -Host contoso-com.mail.protection.outlook.com -From sender@contoso.com -To recipient@contoso.com -UseCredentials
+.\ExchangePostie_Core.ps1 -Host contoso-com.mail.protection.outlook.com -From sender@contoso.com -To recipient@contoso.com -UseCredentials
 #>
 
 #Requires -Version 5.1
